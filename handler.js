@@ -1,3 +1,4 @@
+const dfns = require('date-fns');
 const url = require('url');
 
 let handler = (req, res) => {
@@ -5,12 +6,19 @@ let handler = (req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     
+    let greetString = "";
     if (queryData.name) {
-	res.end("Hello user!\n");
+	greetString = "Hello user!\n";
     }
     else {
-	res.end('Hello World\n');
+	greetString = "Hello World!\n";
     }
+    let friday = dfns.isFriday(new Date());
+    if (friday) {
+	greetString += "It's Friday!"
+    }
+    res.end(greetString);
+
 }
 
 module.exports = handler;
