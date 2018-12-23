@@ -9,6 +9,6 @@
   "author": "Ramit",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^1.29.0"
+    "moment": "^2.23.0"
   }
 }
