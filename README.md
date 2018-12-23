@@ -3,8 +3,7 @@ Simple web server written in Node for Up and running with Git article series. Fi
 
 ### Modified the greeting
 Now we greet on all the days!
-=======
-Simple web server written in Node for the [Up and running with Git](https://www.attosol.com/getting-started-with-git-part-1/) tutorial series.
+
 
 ## Getting started
 Follow the instructions below to get a copy of the project on your local machine.  
@@ -35,11 +34,11 @@ To start the web server, run
 node app.js  
 ```
 
-### Modified the greeting
-Now we greet on all the days!
 
 ## Contributing
-Pull requests are welcome. Add your name to the contributors section in the README and submit a pull request. 
+Pull requests are welcome. Don't forget to add your name to the contributors section in the README and submit a pull request. 
+
 
 ## Contributors
 * Ramit Mittal
+* Rahul Soni - [@itzrahulsoni](https://github.com/itzrahulsoni)
