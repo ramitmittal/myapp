@@ -42,3 +42,4 @@ Pull requests are welcome. Don't forget to add your name to the contributors sec
 ## Contributors
 * Ramit Mittal
 * Rahul Soni - [@itzrahulsoni](https://github.com/itzrahulsoni)
+* Prajwal Bhatia (https://github.com/prajwalbhatia)

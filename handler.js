@@ -7,6 +7,7 @@ let handler = (req, res) => {
   res.setHeader('Content-Type', 'text/plain');
 
   let greetString = "";
+  
   if (queryData.name) {
     greetString = "Hello user!\n";
   } else {
@@ -15,11 +16,13 @@ let handler = (req, res) => {
 
   let day = moment().format('dddd');
   if (day === "Friday") {
-    greetString += "Thank God! It is FRIDAY!"
+    greetString += "Thank God! It is FRIDAY!\n"
   } else {
-    greetString += ("It's " + day);
+    greetString += ("It's " + day + "\n");
   }
+  greetString += "Oh yeh Prajwal Bhatia is a new contributor";
   res.end(greetString);
+  
 };
 
 module.exports = handler;
